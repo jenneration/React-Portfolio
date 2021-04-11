@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1, 
+        "name": "DreamScape",
+        "image": "../public/assets/webproj1"
+
+    },
+    {
+        "id": 2, 
+        "name": "Foodastic",
+        "image": "../public/assets/webproj8"
+
+    },
+    {
+        "id": 3, 
+        "name": "Weather App",
+        "image": "../public/assets/webproj2"
+
+    },
+    {
+        "id": 4, 
+        "name": "Burger Burger",
+        "image": "../public/assets/webproj8"
+
+    },
+    {
+        "id": 5, 
+        "name": "Team Roster Generator",
+        "image": "../public/assets/webproj7"
+
+    },
+    {
+        "id": 6, 
+        "name": "Note Taker",
+        "image": "../public/assets/webproj10"
+
+    },
+    {
+        "id": 7, 
+        "name": "Day Scheduler",
+        "image": "../public/assets/webproj5"
+
+    },
+]
