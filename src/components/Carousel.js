@@ -100,6 +100,7 @@ class Carousel extends React.Component {
             <div className="wrapperProjects">
                 <div className="container container-jgProjects">
                     <div className="row rowProjects justify-content-center">
+                        <p className="text-center contactTagLine">Works</p>
                         <div className="col-sm-11 offset-sm-3">
                             {this.makeItems(this.state.items)}
                         </div>

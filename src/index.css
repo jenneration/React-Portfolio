@@ -36,6 +36,11 @@ a:focus,
     text-decoration: none;
 }
 
+.nav-link:hover,
+.navbar-brand-jg:hover {
+    color: hotpink;
+}
+
 /* link for project code/vies */
 .g-card-sub-title.alink {
     background-color: grey;
@@ -44,9 +49,6 @@ a:focus,
     border-radius: 12px;
   
 }
-
-
-
 
 .fab.fa-github-alt,
 .fab.fa-linkedin-in {
@@ -58,6 +60,8 @@ a:focus,
 /* Text */
 .navbar-brand-jg,
 .mainTagLine, 
+.aboutTagLine,
+.contactTagLine,
 h1,
 h2,
 h3,
@@ -65,17 +69,22 @@ h4 {
   font-family: "Corben", cursive, "Anton", sans-serif;
 }
 
+
 p,
 .footerText {
     font-family: "Roboto", sans-serif; 
 }
 
-.mainTagLine {
+.mainTagLine,
+.aboutTagLine,
+.contactTagLine {
 font-size: 4rem;
 line-height: 1;
 }
 
-
+.contactTagLine {
+    margin-bottom: 50px;
+}
 /* Nav & Footer */
 .navbar {
     position: fixed;
@@ -85,7 +94,8 @@ line-height: 1;
     z-index: 1;
   }
 
-  .container-footer {
+  .container-footer,
+  footer {
     position: sticky;
     left: 0;
     bottom: 0;
@@ -93,33 +103,47 @@ line-height: 1;
     text-align: center;
     height: 100px;
     padding-top: 20px;
+    /* background-color: #181611; */
   
   }
-
-
-/* Colors */
-
-
-
-/* Pages */
 
 
 /* MAIN */
 .wrapper,
 .container-jgMain {
-    min-height: 92vh;
-    background: pink;
- 
+    min-height: 90vh;
+    background: rgb(255, 168, 183);
+    color: #202020;
+    
+}
+
+.container-jgMain {
+    padding-top: 14rem;
+    /* background: pink; */
+    background: rgb(255, 168, 183);  
 }
 
 .image-jgMain {
     width: 350px;
   }
 
-.container-jgMain {
-    padding-top: 14rem;
-    background: pink;
-}
+
+
+  /* About */
+  .wrapperAbout,
+  .container-jgAbout {
+      min-height: 92vh;
+      background: #d8f789;
+      /* color: #f3f0c5; */
+  }
+  
+  .container-jgAbout {
+      padding-top: 14rem;
+      /* background: #91ca00; */
+      background: #d8f789;
+      color: #202020;
+      line-height: 2;
+  }
 
 /* Projects */
 .wrapperProjects,
@@ -142,7 +166,7 @@ line-height: 1;
     border-radius: 10;
     width: 700px;
     /* height: 300px; */
-    border: 2px solid black;
+    border: 1px solid black;
     margin-right: auto;
     margin-left: auto;
   }
@@ -167,6 +191,42 @@ line-height: 1;
     margin: 0px;
   }
 
+  /* Contacts */
+
+  .wrapperContact,
+  .container-jgContact {
+      min-height: 92vh;
+      background: #faff78;
+      /* color: #f3f0c5; */
+  }
+  
+  .container-jgContact {
+      padding-top: 14rem;
+      /* background: #91ca00; */
+      background: #faff78;
+      color: #202020;
+      line-height: 2;
+  }
+
+  .form {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .btnContact {
+      padding-top: 5px 15px;
+  }
+
+  .success-msg {
+      color: #571773;
+      padding: 10px 15px;
+  }
+
+  .err-msg {
+      color: #ee6352;
+      padding: 10px 15px;
+  }
 
 
 /* Media Queries */
@@ -191,7 +251,9 @@ line-height: 1;
       font-size: 0.75rem;
     }
 
-    .mainTagLine {
+    .mainTagLine,
+    .aboutTagLine,
+    .contactTagLine {
         font-size: 2rem;
       }
 

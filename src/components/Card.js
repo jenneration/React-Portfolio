@@ -6,7 +6,7 @@ function Card(props) {
         // <div className="wrapperProjects">
         //     <div className="container container-jgProjects">
         <div className="d-inline-block g-card" onClick={(e) => props.click(props.item)}>
-            <img className="d-inline-block g-card-image" src={props.item.image} alt={props.item.name} />
+            <img className="d-inline-block g-card-image shadow p-3 mb-5 bg-body rounded" src={props.item.image} alt={props.item.name} />
             {props.item.selected && <CardInfo title={props.item.name} subTitle={props.item.subTitle} codelink={props.item.codelink} deploylink={props.item.deploylink} />}
         </div>
         //     </div>

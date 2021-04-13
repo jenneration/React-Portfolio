@@ -3,14 +3,14 @@ import React from "react";
 
 const About = () => (
   <div>
-    <div className="about">
-      <div className="container">
+    <div className="wrapperAbout">
+      <div className="container container-jgAbout">
         <div className="row" >
-          <div className="col-md-6 offset-md-3 col-sm-12 align-self-center justify-content-center about" >
-            <h1 className="text-center">ABOUT....</h1>
+          <div className="col-md-6 offset-md-3 col-sm-10 align-self-center justify-content-center about" >
+            <p className="text-center aboutTagLine">About</p>
             <br />
-            <p>Just a small town girl. Living in a lonely world. But seriously....</p>
-            <p>
+            <p className="text-center">Just a small town girl. Living in a lonely world. But seriously....</p>
+            <p class-Name="text-center">
               I'm from Brooklyn, NY, moved around too much and eventually settled in
               D.C.I graduated from the Corcoran College of Art + Design with a
               degree in Fine Art Photography only to realize I hate the part
@@ -22,21 +22,6 @@ const About = () => (
         </div>
       </div>
     </div>
-    <footer className="main-footer fluid text-center fixed-bottom">
-      <div className="container">
-        <div className="row row-footer pt-3 pb-3 justify-content-between p-3">
-          <div className="col-md-3 col-sm-12 p-0 text-yellow">
-            Github
-            </div>
-          <div className="col-md-3 col-sm-12 p-0 text-yellow">
-            This site was made by Jenner
-          </div>
-          <div className="col-md-3 col-sm-12 p-0 text-yellow">
-            LinkedIn
-          </div>
-        </div>
-      </div>
-    </footer>
   </div>
 );
 
