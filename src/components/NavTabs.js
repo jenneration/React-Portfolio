@@ -1,9 +1,9 @@
 import React from "react";
-import "bootstrap/js/src/collapse.js"; //For navbar functionality
+import "bootstrap/js/src/collapse.js"; //For navbar toggle functionality
 function NavTabs(props) {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg nav-jgMain">
+      <nav className="navbar pt-3 pb-3 navbar-expand-lg nav-jgMain fixed-top bg-dark">
         <div className="container">
           <a className="navbar-brand navbar-brand-jg" href="index.html" >JENNERATION</a>
           <button

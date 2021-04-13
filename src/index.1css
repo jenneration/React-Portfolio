@@ -1,0 +1,407 @@
+/* Google font styles
+font-family: 'Anton', sans-serif;
+font-family: 'Corben', cursive;
+font-family: 'Roboto', sans-serif;
+
+background-color: #181611;
+background-color: #333;
+background-color: #272a2e;
+color: #ffe;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Corben:wght@700&family=Roboto&display=swap');
+/* ******************** NEW STYLES FOR REACT ******************** */
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+/* Fill page */
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* KEEP */
+main {
+  height: 100vh;
+  width: 100%;
+}
+  /* Main Page  */
+  
+  .main,
+  .navbar,
+  .navbar a,
+  .main-footer {
+    /* background-color: #1b1900; */
+    /* color: #edebcc; */
+    color: #020202;
+    background-color: f8f8ff;
+  }
+  
+  .mainTagLine {
+    color: #f3f0c5;
+  }
+
+
+  /* FIX navbar text on hover  */
+  /* a .nav-item.nav-link.active {
+    color: #1b1900;
+  } */
+
+  .image-jgMain {
+    width: 350px;
+  }
+
+  
+  /* ******************** FOOTER ******************** */
+  /* KEEP */
+
+.wrapper {
+  /* position: fixed; */
+  overflow: hidden;
+}
+
+  .main {
+    min-height: 95vh;
+  }
+
+  .main-footer {
+  border-top: dashed;
+  border-width: 5px;
+  }
+
+  .navbar {
+  border-bottom: dashed;
+  border-width: 5px;
+  }
+
+  /* ******************** SPECIAL PAGE STYLES ******************** */
+  
+  /* PORTFOLIO background colors */
+  .portfolio {
+    min-height: 760px;
+  }
+  
+  .portfolio,
+  .nav-jgPortfolio,
+  .row-jgPortfolio,
+  .footer-port {
+    /* background-color: #fff; */
+    background-color: #ff7300;
+  }
+  
+  .portfolio a:hover {
+    color: #4a9602;
+  }
+  
+  .portfolioTag {
+    border-top: dashed 8px #fffcd6;
+    border-bottom: dashed 8px #fffcd6;
+    /* border-top: dashed 8px #454545;
+    border-bottom: dashed 8px #454545; */
+  
+    padding: 5px;
+  }
+  
+  .card {
+    margin-bottom: 25px;
+  }
+  
+  /* Portfolio-Project Extension Pages */
+  
+  .nav-jgProject {
+    background-color: #454545;
+  }
+  
+  .projectMe {
+    font-size: 2rem;
+    margin-top: 75px;
+  }
+  
+  .image-Contact-port {
+    border: solid 3px #454545;
+    box-shadow: 10px 5px 5px #454545;
+  }
+  
+  /* .container-jgProject,
+  .nav-link-project,
+  .new-contact {
+    color: #454545;
+  }
+  
+
+  /* CONTACT background colors */
+  
+  .contact,
+  .nav-jgContact,
+  .row-jgContact {
+    background-color: #ff7300;
+  }
+  
+  .contact a:hover {
+    color: #ff7300;
+  }
+  
+  .form-control-jg {
+    background-color: #fffcd6;
+  }
+  
+  .btn-jg {
+    background-color: #fffcd6;
+    color: #ff7300;
+    margin-top: 5px;
+    padding: 8px 6px;
+  }
+  
+  .form-group-jg {
+    padding-top: 50px;
+  }
+  
+  /* ******************** NAVIGATION ******************** */
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  a:hover,
+  a:active {
+    background-color: #fffcd6;
+ color: #ff7300;
+  }
+
+  .nav-link,
+  .nav-link active {
+    color: orange;
+  }
+  
+  .navbar-nav {
+    font-weight: bold;
+  }
+  
+  a {
+    color: #fffcd6;
+    color: #ff7300;
+  }
+  
+  .container-message-jg {
+    padding: 50px;
+  }
+  
+  /* ******************** TEXT ******************** */
+  
+  .navbar-brand-jg,
+  h1,
+  .mainTagLine,
+  .btn-jg,
+  .messegeMe,
+  .projectMe {
+    font-family: "Corben", cursive, "Anton", sans-serif;
+  }
+  
+  .mainTagLine {
+    font-size: 4rem;
+    line-height: 1;
+  }
+  
+  .messegeMe {
+    font-size: 4rem;
+  }
+  
+  h2,
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  p,
+  .main-footer.row.col {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .strong {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .container-jgPortfolio {
+    margin-bottom: 50px;
+  }
+  
+  /* ******************** IMAGES ******************** */
+  
+
+  
+  /* .image-jgPortfolio {
+    width: 600px;
+  } */
+  
+  /* .image-jgContact {
+    width: 500px;
+   
+  } */
+  
+  /* .card img {
+    width: 100%;
+  } */
+  
+  /* .img-thumbnail-jg {
+    background-color: #fffcd6;
+  } */
+  
+  /* ******************** MEDIA QUERIES ******************** */
+  /* Mobile: main */
+  @media (max-width: 600px) {
+    .navbar-brand-jg {
+      font-size: 0.75rem;
+    }
+
+    .wrapper {
+      overflow: auto;
+    }
+    
+    .main {
+      height: 100%;
+    }
+
+   
+
+    .container-jgMain {
+    padding-top: 50px;
+    }
+    .mainTagLine {
+      font-size: 2rem;
+    }
+ 
+    .stuff-jg,
+    .img {
+      padding: 20px 15px;
+      text-align: center;
+    }
+
+    .image-jgMain,
+    .image-jgContact {
+      width: 250px;
+      display: block;
+    }
+
+    .messegeMe {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+  }
+  
+  @media (min-width: 992px) {
+    .container-jgContact {
+      padding-top: 2rem;
+    }
+    .image-jgContact {
+      width: 500px;
+    }
+  }
+
+
+  /* ****** CARD ******* */
+  .card {
+    background: #fff;
+    border-radius: 2px;
+    height: 325px;
+    margin: 1rem;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  }
+  
+  .card > .img-container {
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+    background:#6CADDC;
+  }
+  .card > .img-container > img {
+    width: 60%
+  }
+  
+  .card > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
+  
+  .card > .content > ul {
+    list-style-type: none;
+  }
+  
+  .card > .content > ul > li {
+    margin-top: 18px;
+  }
+
+  /* **** WRAPPER ***** */
+
+  .wrapper {
+    min-height: 100%;
+    padding-bottom: 100px;
+  }
+
+  /* **** TITLE ***** */
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: #2A77AE;
+    margin-bottom: 50px;
+  }
+
+
+  .g-card {
+    margin: 20px;
+  }
+
+  .g-card-image {
+    border-radius: 10;
+    width: 600px;
+    /* height: 300px; */
+    border: 2px solid black;
+  }
+
+  .g-card-info {
+    font-size: 24px;
+    margin-top: 10px;
+    min-height: 100px;
+  }
+
+  .g-card-info a {
+    margin-right: 12px;
+  }
+
+  .g-card-title {
+  font-size: 24px;
+  margin: 0px;
+  }
+
+  .g-card-sub-title {
+    font-size: 16px;
+    margin: 0px;
+  }
+
+ 

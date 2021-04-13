@@ -17,7 +17,7 @@ class Carousel extends React.Component {
                     name: "DreamScape",
                     image: webproj9,
                     codelink: "https://github.com/jenneration/Project2-DreamScape",
-                    deploylink: "https://github.com/jenneration/Project2-DreamScape",
+                    deploylink: "https://fathomless-woodland-79338.herokuapp.com/",
                     subTitle: "A place for your dreams",
                     selected: false
 
@@ -97,11 +97,13 @@ class Carousel extends React.Component {
 
     render() {
         return (
-
-
-            <div className="container">
-                <div className="row justify-content-around">
-                    {this.makeItems(this.state.items)}
+            <div className="wrapperProjects">
+                <div className="container container-jgProjects">
+                    <div className="row rowProjects justify-content-center">
+                        <div className="col-sm-11 offset-sm-3">
+                            {this.makeItems(this.state.items)}
+                        </div>
+                    </div>
                 </div>
             </div>
         )

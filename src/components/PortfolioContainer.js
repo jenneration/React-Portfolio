@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
+import Footer from "./Footer";
+
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
+
 
 class Portfolio extends Component {
   state = {
@@ -26,6 +29,9 @@ class Portfolio extends Component {
     }
   };
 
+
+
+
   render() {
     return (
       <div>
@@ -34,6 +40,7 @@ class Portfolio extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        <Footer />
       </div>
     );
   }

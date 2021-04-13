@@ -1,7 +1,7 @@
 import React from "react";
 
 function Column(props) {
-    return(
+    return (
         <div className="col-sm-6">
             {props.children}
         </div>

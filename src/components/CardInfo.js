@@ -9,11 +9,12 @@ function CardInfo(props) {
 
 
     return (
+
         <animated.div className="g-card-info" style={style}>
             <p className="g-card-title">{props.title}</p>
             <p className="g-card-sub-title">{props.subTitle}</p>
-            <a className="g-card-sub-title" href={props.codelink} target="_blank" rel="noopener noreferrer">See the code</a>
-            <a className="g-card-sub-title" href={props.deploylink} target="_blank" rel="noopener noreferrer">See project</a>
+            <a className="g-card-sub-title alink" href={props.codelink} target="_blank" rel="noopener noreferrer">View code</a>
+            <a className="g-card-sub-title alink" href={props.deploylink} target="_blank" rel="noopener noreferrer">View project</a>
         </animated.div>
     );
 
