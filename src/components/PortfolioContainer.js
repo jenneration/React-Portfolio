@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Footer from "./Footer";
-
+import Wrapper from "./Wrapper"
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects";

@@ -3,7 +3,6 @@ import "../index.css";
 
 function Footer(props) {
     return (
-        // <div className="container-fluid container-footer">
         <footer className="footer text-center bg-dark">
             <div className="container">
                 <div className="row row-footer pt-3 pb-3 justify-content-between p-3">
@@ -15,7 +14,6 @@ function Footer(props) {
                 </div>
             </div>
         </footer >
-        // </div>
     );
 }
 

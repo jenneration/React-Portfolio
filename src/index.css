@@ -85,6 +85,7 @@ line-height: 1;
 .contactTagLine {
     margin-bottom: 50px;
 }
+
 /* Nav & Footer */
 .navbar {
     position: fixed;
@@ -94,8 +95,7 @@ line-height: 1;
     z-index: 1;
   }
 
-  .container-footer,
-  footer {
+  .footer {
     position: sticky;
     left: 0;
     bottom: 0;
@@ -103,8 +103,8 @@ line-height: 1;
     text-align: center;
     height: 100px;
     padding-top: 20px;
-    /* background-color: #181611; */
-  
+    height: auto; 
+  /* NOTE: height resolves shriking up on mobile */
   }
 
 
@@ -130,20 +130,19 @@ line-height: 1;
 
 
   /* About */
+
+  
   .wrapperAbout,
   .container-jgAbout {
       min-height: 92vh;
       background: #d8f789;
-      /* color: #f3f0c5; */
-  }
-  
-  .container-jgAbout {
-      padding-top: 14rem;
-      /* background: #91ca00; */
-      background: #d8f789;
       color: #202020;
       line-height: 2;
-  }
+    }
+    
+    .container-jgAbout {
+        padding-top: 14rem;
+    }
 
 /* Projects */
 .wrapperProjects,
@@ -192,18 +191,18 @@ line-height: 1;
   }
 
   /* Contacts */
-
   .wrapperContact,
   .container-jgContact {
       min-height: 92vh;
-      background: #faff78;
+      background: #81e8ff;
       /* color: #f3f0c5; */
+
   }
   
   .container-jgContact {
       padding-top: 14rem;
       /* background: #91ca00; */
-      background: #faff78;
+      background: #81e8ff;
       color: #202020;
       line-height: 2;
   }
