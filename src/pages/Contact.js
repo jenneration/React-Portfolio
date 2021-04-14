@@ -12,7 +12,7 @@ const Contact = () => (
           <br />
           <br />
           <br />
-          <h4 className="text-center">jenner.garcia@gail.com</h4>
+          <h4 className="text-center">jenner.garcia@gmail.com</h4>
           <br />
           <p><a class="nav-link active text-center text-dark" href="https://www.linkedin.com/in/jennergarcia/"><span><i class="fab fa-linkedin-in"></i></span></a></p>
           <br />
