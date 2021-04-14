@@ -71,8 +71,15 @@ h4 {
 
 
 p,
-.footerText {
+.footerText,
+.aboutsubTitle {
     font-family: "Roboto", sans-serif; 
+}
+
+.aboutsubTitle {
+  font-size: 1.75rem;
+  font-weight: 800;
+
 }
 
 .mainTagLine,
@@ -130,12 +137,11 @@ line-height: 1;
 
 
   /* About */
-
-  
   .wrapperAbout,
   .container-jgAbout {
       min-height: 92vh;
-      background: #d8f789;
+      /* background: #d8f789; */
+      background: rgb(137, 255, 137);
       color: #202020;
       line-height: 2;
     }
@@ -143,6 +149,15 @@ line-height: 1;
     .container-jgAbout {
         padding-top: 14rem;
     }
+
+    .heart {
+      color: hotpink;
+    }
+
+.pheart {
+  text-align: center;
+}
+
 
 /* Projects */
 .wrapperProjects,
@@ -205,6 +220,11 @@ line-height: 1;
       background: #81e8ff;
       color: #202020;
       line-height: 2;
+  }
+
+ .contactme {
+    font-size: 5rem;
+    text-align: center;
   }
 
   .form {
