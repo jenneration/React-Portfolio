@@ -21,24 +21,28 @@ function NavTabs(props) {
 
             <div className="navbar-nav">
               <a className="nav-item nav-link active" href="#home"
+                data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation"
                 onClick={() => props.handlePageChange("Home")}
                 className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}>
                 Home<span className="sr-only">(current)</span>
               </a>
 
               <a className="nav-item nav-link active" href="#about"
+                data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation"
                 onClick={() => props.handlePageChange("About")}
                 className={props.currentPage === "About" ? "nav-link active" : "nav-link"}>
                 About
               </a>
 
               <a className="nav-item nav-link active" href="#projects"
+                data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation"
                 onClick={() => props.handlePageChange("Projects")}
                 className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}>
                 Projects
               </a>
 
               <a className="nav-item nav-link active" href="#contact"
+                data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation"
                 onClick={() => props.handlePageChange("Contact")}
                 className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}>
                 Contact

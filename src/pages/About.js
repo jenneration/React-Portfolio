@@ -6,7 +6,7 @@ const About = () => (
   <div className="wrapperAbout">
     <div className="container container-jgAbout">
       <div className="row rowAbout" >
-        <div className="col-md-7 offset-md-2 col-sm-10 align-self-center justify-content-center about" >
+        <div className="col-md-7 offset-md-2 col-sm-8 align-self-center justify-content-center about" >
           <p className="text-center aboutTagLine">About</p>
           <p className="pheart"><span className="heart text-center"> &#10084; </span>&#10084; <span className="heart">&#10084; </span>&#10084; <span className="heart">&#10084; </span>&#10084; <span className="heart">&#10084; </span>&#10084; <span className="heart text-center"> &#10084; </span>&#10084; <span className="heart">&#10084; </span>&#10084; <span className="heart">&#10084; </span>&#10084; <span className="heart">&#10084; </span>&#10084;</p>
           <p className="text-center aboutsubTitle"><strong>Just a small town girl. Living in a lonely world.</strong></p>

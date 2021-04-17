@@ -1,9 +1,6 @@
 import React from "react";
 
-
-
 const Contact = () => (
-
   <div className="wrapperContact">
     <div className="container container-jgContact">
       <div className="row rowAbout" >
