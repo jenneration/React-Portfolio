@@ -104,7 +104,7 @@ p,
   bottom: 0;
   width: 100%;
   text-align: center;
-  height: 100px;
+  height: 50px;
   padding-top: 20px;
   height: auto;
   /* NOTE: height resolves shriking up on mobile */
@@ -113,14 +113,16 @@ p,
 /* MAIN */
 .wrapper {
   min-height: 89.5vh;
-  background: rgb(255, 168, 183);
+  /* background: rgb(255, 168, 183); */
+  background-color: hotpink;
   color: #202020;
 }
 
 .container-jgMain {
   padding-top: 14rem;
   /* background: pink; */
-  background: rgb(255, 168, 183);
+  /* background: rgb(255, 168, 183); */
+  background-color: hotpink;
 }
 
 .image-jgMain {
@@ -305,11 +307,10 @@ p,
     font-size: 4rem;
     text-align: center;
   }
-  
+
   h4.text-center {
     font-size: 1rem;
   }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -327,5 +328,10 @@ p,
     width: 400px;
     /* height: 300px; */
     border: 2px solid black;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    height: auto !important;
   }
 }

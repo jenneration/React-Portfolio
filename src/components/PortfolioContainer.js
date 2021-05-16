@@ -1,19 +1,18 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Footer from "./Footer";
-import Wrapper from "./Wrapper"
+import Wrapper from "./Wrapper";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 
-
 class Portfolio extends Component {
   state = {
-    currentPage: "Home"
+    currentPage: "Home",
   };
 
-  handlePageChange = page => {
+  handlePageChange = (page) => {
     this.setState({ currentPage: page });
   };
 
@@ -28,9 +27,6 @@ class Portfolio extends Component {
       return <Contact />;
     }
   };
-
-
-
 
   render() {
     return (
