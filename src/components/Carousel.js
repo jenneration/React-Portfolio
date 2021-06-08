@@ -16,33 +16,39 @@ class Carousel extends React.Component {
         {
           id: 0,
           name: "jot!",
+          tasks: "Primary on site concept, UX/UI and CSS + React",
           image: webproj3,
           codelink: "https://github.com/jenneration/P3_JOT-write-it-all-down",
           deploylink: "https://pacific-river-65796.herokuapp.com/",
-          subTitle: "A place for your dreams",
+          subTitle: "Write it all down",
           selected: false,
         },
         {
           id: 1,
           name: "DreamScape",
+          tasks:
+            "Solo project. Primary on concept, code tasks, illustration creation.",
           image: webproj9,
           codelink: "https://github.com/jenneration/Project2-DreamScape",
           deploylink: "https://fathomless-woodland-79338.herokuapp.com/",
-          subTitle: "A place for your dreams",
+          subTitle: "A place for dreams",
           selected: false,
         },
         {
           id: 2,
           name: "Foodastic",
+          tasks:
+            "Contributor to site concept. Primary on UX/UI, CSS, HTML, Bulma. Secondary on jquery/javascript. Creator of the 'Dunno Analyzer' and algorithm",
           image: webproj1,
           codelink: "https://github.com/jenneration/project1_group7",
-          deploylink: "https://jenneration.github.io/Foodtastic-by-Team-RAIJ/",
+          deploylink: "https://jenneration.github.io/P1_Foodtastic/",
           subTitle: "Hungry? We know what you want!",
           selected: false,
         },
         {
           id: 3,
           name: "Weather App",
+          tasks: "Solo project",
           image: webproj2,
           codelink: "https://github.com/jenneration/Weather-Dashboard",
           deploylink: "https://jenneration.github.io/Weather-Dashboard/",
@@ -52,6 +58,7 @@ class Carousel extends React.Component {
         {
           id: 4,
           name: "Burger Burger",
+          tasks: "Solo project",
           image: webproj8,
           codelink: "https://github.com/jenneration/Burger-Burger",
           deploylink: "https://sheltered-brushlands-74287.herokuapp.com",
@@ -61,6 +68,7 @@ class Carousel extends React.Component {
         {
           id: 5,
           name: "Day Scheduler",
+          tasks: "Solo project",
           image: webproj4,
           codelink: "https://github.com/jenneration/Employee-Roster-Generator",
           deploylink:
@@ -71,10 +79,11 @@ class Carousel extends React.Component {
         {
           id: 6,
           name: "Note Taker",
+          tasks: "Solo project",
           image: webproj10,
           codelink: "https://github.com/jenneration/Note-Taker",
           deploylink: "https://safe-headland-22717.herokuapp.com/",
-          subTitle: "Jot it down. Check off when done",
+          subTitle: "List to-dos and check off when completed",
           selected: false,
         },
       ],

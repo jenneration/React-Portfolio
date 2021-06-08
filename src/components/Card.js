@@ -18,6 +18,7 @@ function Card(props) {
         <CardInfo
           title={props.item.name}
           subTitle={props.item.subTitle}
+          tasks={props.item.tasks}
           codelink={props.item.codelink}
           deploylink={props.item.deploylink}
         />
