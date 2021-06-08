@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/tinified/avatar.png";
 
 const Home = () => (
   <div className='wrapper'>

@@ -1,11 +1,18 @@
 import React from "react";
-import webproj9 from "../assets/webproj9.png";
-import webproj8 from "../assets/webproj8.png";
-import webproj2 from "../assets/webproj2.png";
-import webproj1 from "../assets/webproj1.png";
-import webproj4 from "../assets/webproj4.png";
-import webproj10 from "../assets/webproj10.png";
-import webproj3 from "../assets/webproj3.png";
+import webproj9 from "../assets/tinified/webproj9.png";
+import webproj8 from "../assets/tinified/webproj8.png";
+import webproj2 from "../assets/tinified/webproj2.png";
+import webproj1 from "../assets/tinified/webproj1.png";
+import webproj4 from "../assets/tinified/webproj4.png";
+import webproj10 from "../assets/tinified/webproj10.png";
+import webproj3 from "../assets/tinified/webproj3.png";
+// import webproj9 from "../assets/webproj9.png";
+// import webproj8 from "../assets/webproj8.png";
+// import webproj2 from "../assets/webproj2.png";
+// import webproj1 from "../assets/webproj1.png";
+// import webproj4 from "../assets/webproj4.png";
+// import webproj10 from "../assets/webproj10.png";
+// import webproj3 from "../assets/webproj3.png";
 import Card from "../components/Card";
 
 class Carousel extends React.Component {
